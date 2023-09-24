@@ -2,7 +2,7 @@
 
 /*
  *int _strlen - function
- *
+ *@s: function parameter
  *Return: the length
  */
 
