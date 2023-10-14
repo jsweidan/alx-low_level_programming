@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <unistd.h>
 
-/*
- *main - print all numbers base of 10
+/**
+ *main - entry point
  *Description: not allowed to use char
  *Return: Always 0
  */
