@@ -2,7 +2,7 @@
 
 /**
  *main - print all different combination ofthree digits
- *Description: the three digits mustbe different
+ *Description: the three digits must be different
  *Return: Always 0
  */
 
@@ -27,10 +27,10 @@ int main(void)
 
 			}
 		}
+	}
 
 		putchar('\n');
 
 		return (0);
-	}
 
 }
