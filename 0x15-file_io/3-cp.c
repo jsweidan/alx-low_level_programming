@@ -52,7 +52,7 @@ int main(int argc, char *argv[])
 		nchars = read(file_from, buf, 1024);
 		if (nchars == -1)
 			error_file(-1, 0, argv);
-		nwr = write(file_to, buf, 1024);
+		nwr = write(file_to, buf, nchars);
 		if (nwr == -1)
 			error_file(0, -1, argv);
 	}
@@ -64,6 +64,7 @@ int main(int argc, char *argv[])
 		exit(100);
 	}
 	err_close = close(file_to);
+	if (err_close == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't close fd FD_VALUE %d\n", file_to);
 		exit(100);
