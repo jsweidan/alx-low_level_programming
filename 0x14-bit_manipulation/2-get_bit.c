@@ -1,12 +1,10 @@
 #include "main.h"
 
 /**
- * get_bit - the value of a bit at a given index
- *
- * Description: a function that returns the value of a bit at a given index
- * @n: the number of times to check the value
+ * get_bit - get the value of a bit at a given index
  * @index: the index of the bit
- * Returns: the value of the bit at index index or -1 if an error occured
+ * @n: the number of times to check the value
+ * Return: the value of the bit at index index or -1 if an error occured
  */
 
 int get_bit(unsigned long int n, unsigned int index)
