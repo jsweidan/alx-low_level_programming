@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * @add: addstwo integers
+ * add - add stwo integers
+ * @n1: 1st number
+ * @n2: 2nd number
  *
- * Return: reslults of addition
- *
+ * Return: results of addition
  */
 
-int add(int, int)
+int add(int n1, int n2)
 {
-	int p, q;
-
+	return (n1 + n2);
 }
