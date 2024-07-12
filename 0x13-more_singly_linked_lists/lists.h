@@ -9,7 +9,7 @@
  *
  * @n: integer
  * @next: ref pointer
- *
+ * pointerto the next node
  */
 
 typedef struct listint_s
